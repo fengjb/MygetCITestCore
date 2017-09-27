@@ -6,6 +6,7 @@ namespace MygetCITestCore
     {
         public void tt()
         {
+
         }
     }
 }
