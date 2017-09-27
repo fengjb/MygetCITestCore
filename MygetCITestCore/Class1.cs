@@ -1,4 +1,6 @@
 ﻿using System;
+using Newtonsoft;
+using Newtonsoft.Json;
 
 namespace MygetCITestCore
 {
@@ -6,6 +8,7 @@ namespace MygetCITestCore
     {
         public void tt()
         {
+            JsonConvert.SerializeObject("");
 
         }
     }
