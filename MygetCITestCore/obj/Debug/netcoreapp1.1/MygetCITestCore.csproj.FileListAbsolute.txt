@@ -1,0 +1,4 @@
+D:\GitHub\MygetCITestCore\MygetCITestCore\bin\Debug\netcoreapp1.1\MygetCITestCore.deps.json
+D:\GitHub\MygetCITestCore\MygetCITestCore\bin\Debug\netcoreapp1.1\MygetCITestCore.dll
+D:\GitHub\MygetCITestCore\MygetCITestCore\obj\Debug\netcoreapp1.1\MygetCITestCore.csprojResolveAssemblyReference.cache
+D:\GitHub\MygetCITestCore\MygetCITestCore\obj\Debug\netcoreapp1.1\MygetCITestCore.AssemblyInfo.cs
