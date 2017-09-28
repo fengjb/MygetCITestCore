@@ -5,10 +5,4 @@ dist: trusty
 script:
  - dotnet restore
  - dotnet pack -c Release -o ..
-deploy:
- provider: releases
- api_key: "7824a63222379c25524572f19848d6bd7a8f4fb6"
- file: "MygetCITestCore.1.0.0.nupkg"
- skip_cleanup: true
- on:
-   tags: true
+ - dotnet nuget push MygetCITestCore.1.0.0.nupkg -k 79fed081-43ff-437a-8520-a8368a52b6ba -s https://www.myget.org/F/dota2/api/v2/package
