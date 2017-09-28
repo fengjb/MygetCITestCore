@@ -5,3 +5,11 @@ dist: trusty
 script:
  - dotnet restore
  - dotnet pack -c Release -o ..
+ deploy:
+  provider: releases
+  api_key: "8312b1f038935c4fa522d91bc728b541e9efa31e"
+  file: "MygetCITestCore.1.0.0.nupkg"
+  skip_cleanup: true
+  overwrite: true
+  on:
+    tags: true

@@ -9,7 +9,6 @@ namespace MygetCITestCore
         public void tt()
         {
             JsonConvert.SerializeObject("");
-
         }
     }
 }
