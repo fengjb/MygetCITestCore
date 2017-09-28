@@ -10,5 +10,6 @@ namespace MygetCITestCore
         {
             JsonConvert.SerializeObject("");
         }
+
     }
 }
