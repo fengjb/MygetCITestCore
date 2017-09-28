@@ -7,7 +7,7 @@ script:
  - dotnet pack -c Release -o ..
 deploy:
  provider: releases
- api_key: "8eefa6a93965420c577c5ba787070d3a5edc55c5"
+ api_key: "7824a63222379c25524572f19848d6bd7a8f4fb6"
  file: "MygetCITestCore.1.0.0.nupkg"
  skip_cleanup: true
  on:
