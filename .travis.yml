@@ -7,8 +7,8 @@ script:
  - dotnet pack -c Release -o ..
 deploy:
  provider: releases
- api_key: "8312b1f038935c4fa522d91bc728b541e9efa31e"
- file: "/home/travis/build/fengjb/MygetCITestCore/MygetCITestCore.1.0.0.nupkg"
+ api_key: "8eefa6a93965420c577c5ba787070d3a5edc55c5"
+ file: "MygetCITestCore.1.0.0.nupkg"
  skip_cleanup: true
  on:
    tags: true
