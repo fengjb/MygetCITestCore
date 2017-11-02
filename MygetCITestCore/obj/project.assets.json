@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "Libuv/1.9.1": {
@@ -7450,19 +7450,36 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "D:\\GitHub\\MygetCITestCore\\MygetCITestCore\\MygetCITestCore.csproj",
       "projectName": "MygetCITestCore",
       "projectPath": "D:\\GitHub\\MygetCITestCore\\MygetCITestCore\\MygetCITestCore.csproj",
+      "packagesPath": "C:\\Users\\fjb43008\\.nuget\\packages\\",
       "outputPath": "D:\\GitHub\\MygetCITestCore\\MygetCITestCore\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\fjb43008\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "sources": {
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "http://api.nuget.17usoft.com/tcghotelorderservice/v3/index.json": {}
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
