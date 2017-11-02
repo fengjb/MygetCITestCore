@@ -7469,7 +7469,8 @@
       ],
       "sources": {
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
-        "http://api.nuget.17usoft.com/tcghotelorderservice/v3/index.json": {}
+        "http://api.nuget.17usoft.com/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
