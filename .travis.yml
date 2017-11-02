@@ -5,4 +5,4 @@ dist: trusty
 script:
  - dotnet restore
  - dotnet pack -c Release -o ..
- - dotnet nuget push MygetCITestCore.1.0.0.nupkg -k apikey -s sourse
+
